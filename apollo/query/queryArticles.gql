@@ -5,6 +5,7 @@ query Articles {
     image{
       url
     },
-    description
+    description,
+    slug
   }
 }

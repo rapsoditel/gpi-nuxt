@@ -1,0 +1,10 @@
+query ArticlesDetail($slug: String!) {
+  articles (where: {slug: $slug}){
+    id,
+    title,
+    image{
+      url
+    },
+    content
+  }
+}
